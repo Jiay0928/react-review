@@ -1,0 +1,29 @@
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  .layoutDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  table, th, td {
+    border: 1px solid;
+  }
+  td{
+    height: 40px;
+    width: 40px;
+  }
+
+  .LoginLayout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+  }
